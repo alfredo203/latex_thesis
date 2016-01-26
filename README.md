@@ -1,2 +1,5 @@
 # latex_thesis
-Latex Thesis template, spanish inputec
+Latex Thesis template.
+
+* Spanish Format (inputec).
+* Organized chapters, input call by main file.
