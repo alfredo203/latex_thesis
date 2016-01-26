@@ -1,0 +1,52 @@
+\documentclass[twoside,12pt,onehalfspace, spanish]{report}
+\usepackage[spanish]{babel}
+\selectlanguage{spanish}
+
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+\usepackage{lmodern} 			%% Latin modern, incluye acentos locos
+\usepackage[utf8]{inputenc}		%%Codificación utf8, requerido en la configuración
+\usepackage[T1]{fontenc}			%%
+%\pdfinfo{
+
+\begin{document}
+\title{
+	{Título}\\
+	{\large Universidad Nacional Autónoma de México}\\
+	{\includegraphics[width=0.2\textwidth]{university.jpg}}
+}
+\author{Alfredo Olguín Gallardo}
+\date{14 Junio 2016}
+
+\maketitle
+
+\chapter*{Resumen}
+
+
+\chapter*{Dedicatoria}
+
+
+\chapter*{Declaración}
+
+
+\chapter*{Agradecimientos}
+
+
+\tableofcontents
+\chapter{Introduction}
+\include{chapters/introduction}
+
+\chapter{Chapter Two Title}
+\include{chapters/chapter02}
+
+\chapter{Chapter Three Title}
+\include{chapters/chapter03}
+
+\chapter{Chapter Four Title}
+\include{chapters/chapter04}
+
+\chapter{Conclusion}
+\include{chapters/conclusion}
+
+\end{document}
